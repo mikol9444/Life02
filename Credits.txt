@@ -1,0 +1,3 @@
+Sprites Created with : Infinite Painter App 
+Game of life title : https://www.textstudio.com/
+Anomaly Song: Bought in Unity Asset Store (licensed)

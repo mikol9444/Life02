@@ -1,0 +1,8 @@
+﻿  GameDataReader.cpp
+C:\_Uni\Prog\Beleg\Projekte\Gameoflife04\GameOfLife\Life\GameDataReader.cpp(21,47): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Life.cpp
+  LifeDlg.cpp
+  SoundPlayer.cpp
+  UserInterface.cpp
+  Code wird generiert...
+  Life.vcxproj -> C:\_Uni\Prog\Beleg\Projekte\Gameoflife04\GameOfLife\Debug\Life.exe

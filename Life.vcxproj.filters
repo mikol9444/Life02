@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\custom">
+      <UniqueIdentifier>{dc9a9042-f32a-4d8a-bb87-254271edd383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\custom">
+      <UniqueIdentifier>{16cdb01d-45e7-435c-b334-9c260a94296e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\buildin">
+      <UniqueIdentifier>{089b7415-5d8c-4557-aff7-14623599f7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\buildin">
+      <UniqueIdentifier>{a749b8af-85d7-4136-a412-eadd5dd1f97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\persistance">
+      <UniqueIdentifier>{1c56d213-cb9b-4e96-ab6b-342850eda3d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameDataReader.h">
+      <Filter>Headerdateien\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Headerdateien\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Headerdateien\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeDlg.h">
+      <Filter>Headerdateien\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Headerdateien\buildin</Filter>
+    </ClInclude>
+    <ClInclude Include="Life.h">
+      <Filter>Headerdateien\buildin</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Headerdateien\buildin</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Headerdateien\buildin</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien\buildin</Filter>
+    </ClInclude>
+    <ClInclude Include="XUnzip.h">
+      <Filter>Headerdateien\buildin</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib.h">
+      <Filter>Headerdateien\buildin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameDataReader.cpp">
+      <Filter>Quelldateien\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Quelldateien\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Quelldateien\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Life.cpp">
+      <Filter>Quelldateien\buildin</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Quelldateien\buildin</Filter>
+    </ClCompile>
+    <ClCompile Include="XUnzip.cpp">
+      <Filter>Quelldateien\buildin</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib.cpp">
+      <Filter>Quelldateien\buildin</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeDlg.cpp">
+      <Filter>Quelldateien\custom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Life.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Life.rc2">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Life.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Credits.txt">
+      <Filter>Quelldateien\persistance</Filter>
+    </Text>
+    <Text Include="persistance\pattern1.txt">
+      <Filter>Quelldateien\persistance</Filter>
+    </Text>
+    <Text Include="persistance\pattern2.txt">
+      <Filter>Quelldateien\persistance</Filter>
+    </Text>
+    <Text Include="persistance\pattern4.txt">
+      <Filter>Quelldateien\persistance</Filter>
+    </Text>
+    <Text Include="persistance\pattern0.txt">
+      <Filter>Quelldateien\persistance</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
